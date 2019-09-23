@@ -110,7 +110,7 @@ public class TxHandlerTest extends TestCase {
         sig.update(tx1.getRawDataToSign(0));
         byte[] sig2 = sig.sign();
         tx1.addSignature(sig2, 0);
-        tx.finalize();
+        tx1.finalize();
         assertFalse(txHandler.isValidTx(tx1));
     }
 
@@ -169,7 +169,7 @@ public class TxHandlerTest extends TestCase {
         tx2.addSignature(sig2, 0);
         tx2.finalize();
 
-        // C to D 4
+        // C to D 40
         Transaction tx3 = new Transaction();
         tx3.addInput(tx2.getHash(), 0);
         tx3.addOutput(40, Dkp.getPublic());
