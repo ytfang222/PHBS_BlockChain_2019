@@ -145,8 +145,7 @@ I design 10 Junit tests to test the function in the BlockChain.Java. BlockHandle
 
 - Test05: test a linear chain of blocks and it has two branchs. The path is like this. We can see that blockB2,blockB5,blockB55 is the side branch. If we receive new block, it will add to the longest branch.
 
-![image-20191020155513940](/Users/mac/Library/Application Support/typora-user-images/image-20191020155513940.png)
-
+![images](https://github.com/ytfang222/PHBS_BlockChain_2019/raw/master/homework2/block.png)
 - Test06: After a transaction happening, we add a transaction into the txpool. After the transaction write into the block, test the function of remove it from the txpool.
 
 
@@ -161,9 +160,7 @@ I design 10 Junit tests to test the function in the BlockChain.Java. BlockHandle
 
 #### Solution Part3:test results
 
-![image-20191020160407049](/Users/mac/Library/Application Support/typora-user-images/image-20191020160407049.png)
-
-
+![images](https://github.com/ytfang222/PHBS_BlockChain_2019/raw/master/homework2/testresult.png)
 
 
 
