@@ -134,8 +134,7 @@ bh.processBlock(block1)
 
 I design 10 Junit tests to test the function in the BlockChain.Java. BlockHandler.java uses all the function which are written in the BlockChain.java. We just need to test three main function processBlock、createdBlock、processTx in BlockHandler.java so that we can test all the function defined in the BlockChain.java. The following Junit test use many possible cases happening in this Blockchain machanism to design tests.
 
-- Test01: test a block with no transactions. This test aim at testing processBlock.
-
+- Test01: process a genesis block. This test aim at testing processBlock.
 
 - Test02: test  block1 with valid transaction and add a new block2 with inValid transaction which can not be added.This test aims at test addTransaction() in BlockChain.java which is the same funcion of processTX in BlockHandler.java.
 
