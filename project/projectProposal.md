@@ -48,7 +48,7 @@ First, the blockchain is different from the common centralized information stora
 
 （2）CSC Plan
 
-![image-20191027185552756](/Users/mac/Desktop/image-20191027185552756.png)
+![images](https://github.com/ytfang222/PHBS_BlockChain_2019/raw/master/project/image-20191027185552756.png)
 
 From goods factory retroactively, logistics, sales life cycle, smart contracts based on block chain ensure that the information disclosure, transparency, trusted, and tamper resistance, which will greatly enhance the make-up security capabilities of the product.
 
